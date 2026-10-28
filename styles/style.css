@@ -5,6 +5,14 @@ header, footer {
     text-align: center;
 }
 
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
 main {
     background-color: #ffffff;
 }
