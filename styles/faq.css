@@ -2,3 +2,21 @@ li {
     line-height: 1.0; /* Sets line spacing to 1.5 times the font size */
     margin-bottom: 2.5px; 
 }
+.faq {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.faq-item {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.faq-item p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+h2 {
+    margin-left: 40px;
+}

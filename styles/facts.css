@@ -14,6 +14,13 @@ li {
     margin-bottom: 20px;
     }
 
+.chiikawa ul,
+.Hachiware ul,
+.Usagi ul {
+    text-align: left;
+    padding-left: 20px;
+}    
+
 .facts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
