@@ -1,8 +1,36 @@
 li {
-    line-height: 200%;
+    line-height: 120%;
 }
 
-img {
-  width: 400px; 
-  height: 400px;    
+.chiikawa,
+.Hachiware,
+.Usagi {
+    padding: 25px;
+    border: 2px solid;
+    border-color: rgb(119, 188, 245);
+    border-radius: 15px;
+    line-height: 1.6;
+    background-color: #f5f8ff;
+    margin-bottom: 20px;
+    }
+
+.chiikawa ul,
+.Hachiware ul,
+.Usagi ul {
+    text-align: left;
+    padding-left: 20px;
+}    
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 25px;
 }
+p, h2 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}    

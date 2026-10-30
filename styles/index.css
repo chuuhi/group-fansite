@@ -2,3 +2,8 @@ main {
     display: flex;
     justify-content: center;
 }
+
+img {
+    width: 600;
+    height: 600px;
+}
