@@ -1,6 +1,23 @@
 li {
-    line-height: 120%;
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    padding-left: 2.5rem;
+}
+
+li {
+    padding-left: 5px;
+    margin-bottom: 10px;
+} 
 
 .chiikawa,
 .Hachiware,
@@ -14,9 +31,9 @@ li {
     margin-bottom: 20px;
     }
 
-.chiikawa ul,
-.Hachiware ul,
-.Usagi ul {
+.chiikawa ol,
+.Hachiware ol,
+.Usagi ol {
     text-align: left;
     padding-left: 20px;
 }    
@@ -27,7 +44,7 @@ li {
     gap: 20px;
     padding: 25px;
 }
-p, h2 {
+p, h2, section {
     text-align: center;
 }
 
