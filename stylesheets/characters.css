@@ -11,3 +11,24 @@ footer {
 section {
     margin-left: 40px;
 }
+
+#chiikawa {
+    color: pink;
+}
+
+#hachiware {
+    color: purple;
+}
+
+#caption {
+    color:brown;
+}
+
+.character-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 12px;
+}
