@@ -19,6 +19,7 @@ header, footer {
     justify-content: center;
     flex-direction: row;
     gap: 20px;
+    flex-wrap: wrap;
 }
 main {
     background-color: #ffffff;
@@ -26,6 +27,7 @@ main {
 
 body {
   font-family: "Nunito", sans-serif;
+  margin: 0;
 }
 
 .book-title {

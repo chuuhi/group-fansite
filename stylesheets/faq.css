@@ -21,6 +21,6 @@ h2 {
     margin-left: 40px;
 }
 
-h4 {
-    color: black;
+.faq-item h3 {
+    color: blue;
 }

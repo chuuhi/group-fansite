@@ -24,6 +24,7 @@
 .character {
     display: flex;
     align-items: center;
+    /* flex-wrap: wrap; */
     gap: 15px;
     margin-bottom: 15px;
 }
@@ -43,4 +44,16 @@
 
 h1 {
     font-family: "Comic Sans MS", cursive;
+}
+
+@media (max-width: 800px) {
+    #reviews ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    #reviews ul {
+        grid-template-columns: 1fr;
+    }
 }
